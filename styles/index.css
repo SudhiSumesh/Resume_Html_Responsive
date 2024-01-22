@@ -1,0 +1,46 @@
+body {
+  background-color: #333333;
+}
+.left-section-bg {
+  background-color: #193141;
+}
+.contact-bg {
+  background-color: #293f4e;
+}
+h4,h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.image {
+  width: 125px;
+  height: 120px;
+  background: url(../assets/images/Screenshot\ 2023-09-16\ 194552.png);
+  background-size: cover;
+}
+.para {
+  font-size: small;
+  text-align: justify;
+}
+.about_me {
+  background-color: #efefef;
+  height: 30px;
+}
+/* media */
+@media screen and (max-width: 1240px) {
+  .resume {
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .resume {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 764px) {
+  .resume {
+    width: 100% !important;
+    display: block !important;
+  }
+  body {
+    background-color: white;
+  }
+}
